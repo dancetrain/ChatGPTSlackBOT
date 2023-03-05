@@ -12,8 +12,10 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
 }
 
 
-dependencies { 
-    // Slack
-    
-    // ChatGPT Integration
+dependencies {
+  // ChatGPT Integration
+  implementation(project(":chatgpt-client"))
+
+  // Slack
+
 }

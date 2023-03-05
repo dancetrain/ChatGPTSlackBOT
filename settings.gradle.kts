@@ -10,4 +10,7 @@
 
 rootProject.name = "ChatGPTSlackBOT"
 
-include("slackbot")
+include(
+  "chatgpt-client",
+  "slackbot"
+)
